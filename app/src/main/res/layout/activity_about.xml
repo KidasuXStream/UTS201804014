@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:background="@color/colorBghome2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15px"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="130px"
+            android:layout_height="130px"
+            android:src="@drawable/logo1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tentang Toko"
+            style="@style/TextLogo"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:background="@color/colorBorder" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px"
+        android:text="  XStream's Hobby adalah tempat penyedia barang hobby terlengkap di Purwakarta." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:text="Kontak Yang Dapat Dihubungi : " />
+
+    <TextView
+        android:id="@+id/tv_kontak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:text="081382688160 " />
+
+    <Button
+        android:id="@+id/btn_kontak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:text="Hubungi" />
+</LinearLayout>
